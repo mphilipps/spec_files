@@ -25,7 +25,7 @@ make %{?_smp_mflags}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-mkdir -p ${RPM_BUILD_ROOT}/usr/lib64/httpd/modules/
+mkdir -p ${RPM_BUILD_ROOT}%_libdir/httpd/modules/
 make install DESTDIR=$RPM_BUILD_ROOT
 
 
