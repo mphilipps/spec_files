@@ -36,7 +36,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root,-)
 %_libdir/httpd/modules/mod_rpaf.so
-%config(noreplace) %{_sysconfdir}/httpd/conf.d/mod_rpaf.conf
 
 
 %changelog
