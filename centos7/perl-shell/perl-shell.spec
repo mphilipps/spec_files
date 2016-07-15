@@ -11,7 +11,7 @@ Requires: perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 Requires: perl(Test::More)
 Provides: perl-shell = %{version}-%{release}
 BuildRequires: perl(ExtUtils::MakeMaker)
-Requires: perl(Test::More)
+BuildRequires: perl(Test::More)
 
 %description
 run shell commands transparently within perl
