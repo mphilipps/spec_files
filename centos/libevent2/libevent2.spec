@@ -13,9 +13,9 @@ Source0:        https://github.com/libevent/libevent/releases/download/release-%
 
 BuildRequires:  doxygen openssl-devel
 
-Patch00: libevent-2.0.10-stable-configure.patch
+Patch00: https://raw.githubusercontent.com/remicollet/remirepo/master/libevent-last/libevent-2.0.10-stable-configure.patch
 # Disable network tests
-Patch01: libevent-nonettests.patch
+Patch01: https://raw.githubusercontent.com/remicollet/remirepo/master/libevent-last/libevent-nonettests.patch
 
 %description
 The libevent API provides a mechanism to execute a callback function
