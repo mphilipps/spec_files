@@ -1,14 +1,15 @@
 %global libname libevent
 
 Name:           libevent2
-Version:        2.0.21
+Version:        2.0.22
 Release:        1%{?dist}
 Summary:        Abstract asynchronous event notification library
 
 Group:          System Environment/Libraries
 License:        BSD
-URL:            http://sourceforge.net/projects/levent/
+URL:            https://github.com/libevent/libevent/releases
 Source0:        http://downloads.sourceforge.net/levent/%{libname}-%{version}-stable.tar.gz
+Source0:        https://github.com/libevent/libevent/releases/download/release-%{version}-stable/%{libname}-%{version}-stable.tar.gz
 
 BuildRequires:  doxygen openssl-devel
 
