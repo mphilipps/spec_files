@@ -52,8 +52,8 @@ need to install %{name}-doc.
 %setup -q -n %{libname}-%{version}-stable
 
 # 477685 -  libevent-devel multilib conflict
-%patch00 -p1
-%patch01 -p1 -b .nonettests
+#%patch00 -p1
+%patch00 -p1 -b .nonettests
 
 %build
 %configure \
