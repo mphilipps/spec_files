@@ -1,4 +1,6 @@
 %global libname libevent
+# so Centos 5 will not terminate because debuginfo package does not exist and its files are unpackaged
+%define _unpackaged_files_terminate_build 0
 
 Name:           libevent2
 Version:        2.0.22
