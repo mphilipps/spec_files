@@ -9,7 +9,7 @@ URL:		https://tmux.github.io/
 Source:	https://github.com/%{name}/%{name}/releases/download/%{version}/%{name}-%{version}.tar.gz
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
-BuildRequires:	gcc ncurses-devel libevent2-devel
+BuildRequires:	gcc ncurses-devel libevent-devel >= 2.0
 Requires:	ncurses libevent
 
 %description
