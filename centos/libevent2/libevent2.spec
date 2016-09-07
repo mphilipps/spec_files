@@ -12,6 +12,8 @@ Source0:        https://github.com/libevent/libevent/releases/download/release-%
 
 BuildRequires:  doxygen openssl-devel
 
+BuildRoot: %{_tmppath}/%{name}-buildroot-%{version}-%{release}
+
 #Patch00: https://raw.githubusercontent.com/remicollet/remirepo/master/libevent-last/libevent-2.0.10-stable-configure.patch
 # Disable network tests
 Patch00: https://raw.githubusercontent.com/remicollet/remirepo/master/libevent-last/libevent-nonettests.patch
