@@ -1,6 +1,6 @@
 Name:		darbackup
 Version:	0.28
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	darkbackup
 
 Group:		System/Archive
@@ -36,8 +36,8 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{_sysconfdir}/*
-%exclude %{_sysconfdir}/%{name}/darbackup.conf
+%{_sysconfdir}/%{name}/conf.d/*
+%{_sysconfdir}/%{name}/modules.d/*
 %config(noreplace) %{_sysconfdir}/%{name}/darbackup.conf
 %{_sbindir}/*
 
