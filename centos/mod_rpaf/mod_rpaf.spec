@@ -6,7 +6,7 @@ Summary:        reverse proxy add forward
 Group:          System Environment/Daemons
 License:        Apache License 2.0
 URL:            https://github.com/taladar/mod_rpaf
-Source0:        https://github.com/taladar/mod_rpaf/archive/v0.9.0.tar.gz 
+Source0:        https://github.com/taladar/mod_rpaf/archive/v%{version}.tar.gz 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires:  httpd-devel
