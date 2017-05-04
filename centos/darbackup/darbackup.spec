@@ -16,7 +16,7 @@ Requires:	bash >= 3.2 dar >= 2.4.8 grep >= 2.5.3 sed >= 4.1.5 gawk >= 3.1.5 time
 Wrapper for the dar backup tool that handles configuration files, scheduling policy, retention policy,...
 
 %prep
-%setup -q -n darbackup
+%setup -q
 
 
 %build
