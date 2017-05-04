@@ -25,8 +25,8 @@ Wrapper for the dar backup tool that handles configuration files, scheduling pol
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}
-cp -a etc %{buildroot}
-cp -a usr %{buildroot}
+cp -a darbackup/etc %{buildroot}
+cp -a darbackup/usr %{buildroot}
 
 
 
