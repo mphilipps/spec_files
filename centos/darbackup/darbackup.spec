@@ -6,7 +6,7 @@ Summary:	darkbackup
 Group:		System/Archive
 License:	hoermann@saltation.de
 URL:		http://www.saltation.de
-Source:		https://gitlab.saltation.de/saltation-backup/darbackup/repository/archive.tar.gz?ref=master
+Source:		darbackup-%{version}.tar.gz
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
 BuildRequires:	bash
