@@ -1,5 +1,5 @@
 Name:		darbackup
-Version:	0.28
+Version:	0.29
 Release:	2%{?dist}
 Summary:	darkbackup
 
