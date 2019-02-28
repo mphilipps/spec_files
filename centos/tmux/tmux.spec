@@ -1,5 +1,5 @@
 Name:		tmux
-Version:  2.2
+Version:  2.8
 Release:	2%{?dist}
 Summary:	tmux
 
