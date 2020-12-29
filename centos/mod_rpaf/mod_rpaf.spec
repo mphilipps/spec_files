@@ -1,5 +1,5 @@
 Name:           mod_rpaf
-Version:        0.9.2
+Version:        0.9.3
 Release:        1%{?dist}
 Summary:        reverse proxy add forward
 
